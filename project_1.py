@@ -137,9 +137,9 @@ corrected_image = np.vstack((corrected_upper_img, corrected_bottom_img))
 
 
 # Visualizza l'immagine corretta
-cv2.imshow("Flipped Image",corrected_image)
+cv2.imshow("correct image",corrected_image)
 # Save image 
-cv2.imwrite("flipped_image.png", corrected_image)
+cv2.imwrite("correct_image.png", corrected_image)
 # Aspetta che l'utente premi un tasto per chiudere la finestra
 cv2.waitKey(0)
 cv2.destroyAllWindows()
